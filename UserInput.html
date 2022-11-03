@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>User input</title>
+</head>
+
+<body>
+  <!-- using form to get user inputs -->
+  <!-- we can specify action attribute to redirect the particular page after
+    submit button -->
+  <!-- <form class="" action="index.html" method="post"> -->
+  <!-- the below actin will redirect to mail -->
+  <!-- using enctype to get plain text -->
+  <form  action="mailto:iconiczpg2000@gmail.com" method="post" enctype="text/plain">
+    <!-- label is used to label the input -->
+    <label>Your Name</label>
+    <!-- the below code takes input from ser -->
+    <input type="text" name="Your name" value=""><br><br>
+    <label>Enter your mail</label>
+    <input type="email" name="your email" value="">
+    <!-- this code is to pick the color you want -->
+    <input type="color" name="" value=""><br><br>
+    <!-- adding password as type to add password of the user -->
+    <label>password</label>
+    <input type="password" name="" value=""><br><br>
+    <label>Upload file</label>
+    <input type="file" name="" value=""><br><br>
+    <label>Enter your response</label><br><br>
+    <!-- using textarea to take user input in particular area -->
+    <textarea name="your response" rows="8" cols="80"></textarea><br><br>
+    <label>Enter Date</label><br><br>
+    <input type="date" name="" value="">
+    <label>Do you want to sign up to this site?</label>
+    <!-- adding checkbox as type -->
+    <input type="checkbox" name="" value="">
+    <!-- the below code is to take submi as input -->
+    <!-- don't add value attribute inside below code -->
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
